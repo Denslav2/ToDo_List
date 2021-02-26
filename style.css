@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 216, 117);
+    font-family: 'Roboto';
+}
+.box {
+    width: 500px;
+    height: auto;
+    background-color: rgb(128, 185, 116);
+    box-shadow:  0 0 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin: 100px auto;
+}
+.box__title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.box_subtitle{
+    text-align: center;
+    padding-top: 10px;
+}
+.message {
+    display: block;
+    width: 450px;
+    height: 50px;
+    margin: 70px auto;
+    font-size: 25px;
+}
+.add {
+    display: block;
+    padding: 10px 100px;
+    margin: 60px auto;
+    background-color: rgb(171, 175, 166);
+}
+.add:active{
+    background-color: rgb(125, 146, 98);
+}
+.important{
+    color: brown;
+    font-weight: 700;
+}
+.todo{
+    list-style: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.todo__item{
+    width: 450px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
